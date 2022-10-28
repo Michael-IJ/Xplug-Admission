@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./sty.css" />
+  </head>
+  <body>
+    <div class="mynav">
+      <h1>X-PLUG ADMISSION CHECKER</h1>
+    </div>
+
+    <form>
+      <!-- <p>Fill In Your Details</p>
+    <hr>
+     -->
+      <div class="con">
+        <p>Fill In Your Details</p>
+        <hr />
+
+        <div class="personal">
+          <div class="candName">
+            <label>CANDIDATE NAME:</label>
+            <input
+              type="text"
+              value=""
+              placeholder="your name here"
+              id="candName"
+            />
+          </div>
+          <div class="email">
+            <label>Email ADDRESS:</label>
+            <input
+              type="email"
+              value=""
+              placeholder="your name here"
+              id="candMail"
+            />
+          </div>
+          <div class="state">
+            <label>STATE</label>
+            <select name="state" id="stateOfOrigin">
+              <option label="choose1"></option>
+              <option label="LAGOS"></option>
+              <option label="OSHUN"></option>
+              <option label="EKITTI"></option>
+              <option label="OGUN"></option>
+              <option label="NIGER"></option>
+              <option label="South"></option>
+            </select>
+          </div>
+        </div>
+        <!-- </div>    -->
+        <!-- </div> -->
+        <p>O'LEVEL GRADE</p>
+        <hr />
+        <div class="grade1">
+          <div class="maths">
+            <label>MATHEMATICS:</label>
+            <select name="maths" id="candOlevel">
+              <option label="choose1"></option>
+              <option value="10">A1</option>
+              <option value="9">B2</option>
+              <option value="8">B3</option>
+              <option value="7">C4</option>
+              <option value="6">C5</option>
+              <option value="5">C6</option>
+              <option value="3">D7</option>
+              <option value="2">E8</option>
+              <option value="1">F9</option>
+            </select>
+          </div>
+          <div class="english">
+            <label class="">ENGLISH:</label>
+            <select name="maths" id="candOlevel">
+              <option label="choose1">A1</option>
+              <option value="10">A1</option>
+              <option value="9">B2</option>
+              <option value="8">B3</option>
+              <option value="7">C4</option>
+              <option value="6">C5</option>
+              <option value="5">C6</option>
+              <option value="3">D7</option>
+              <option value="2">E8</option>
+              <option value="1">F9</option>
+            </select>
+          </div>
+          <div class="science">
+            <label class="sub">SUBJECT:</label>
+            <select name="maths" id="candOlevel">
+              <option label="choose1"></option>
+              <option label="CHEMISTRY"></option>
+              <option label="ACCOUNTING"></option>
+              <option label="GOVERNMENT"></option>
+              <option label="ECONOMICS"></option>
+              <option label="LITRATURE"></option>
+            </select>
+            <select name="maths" id="candOlevel">
+              <option label="grade"></option>
+              <option value="10">A1</option>
+              <option value="9">B2</option>
+              <option value="8">B3</option>
+              <option value="7">C4</option>
+              <option value="6">C5</option>
+              <option value="5">C6</option>
+              <option value="3">D7</option>
+              <option value="2">E8</option>
+              <option value="1">F9</option>
+            </select>
+          </div>
+          <div class="arts">
+            <label class="sub">SUBJECT:</label>
+            <select name="maths" id="candOlevel">
+              <option label="choose1"></option>
+              <option label="PHYSICS"></option>
+              <option label="BIOLOGY"></option>
+              <option label="COMMERCE"></option>
+              <option label="C.R.S"></option>
+              <option label="COMPUTER"></option>
+            </select>
+            <select name="maths" id="candOlevel">
+              <option label="grade"></option>
+              <option value="10">A1</option>
+              <option value="9">B2</option>
+              <option value="8">B3</option>
+              <option value="7">C4</option>
+              <option value="6">C5</option>
+              <option value="5">C6</option>
+              <option value="3">D7</option>
+              <option value="2">E8</option>
+              <option value="1">F9</option>
+            </select>
+          </div>
+          <div class="commercial">
+            <label class="sub">SUBJECT:</label>
+            <select name="maths" id="candOlevel">
+              <option label="choose1"></option>
+              <option label="GEOGRAPHY"></option>
+              <option label="AGRIC"></option>
+              <option label="YORUBA"></option>
+              <option label="IGBO"></option>
+              <option label="F-MATHS"></option>
+            </select>
+            <select name="maths" id="candOlevel">
+              <option label="grade"></option>
+              <option value="10">A1</option>
+              <option value="9">B2</option>
+              <option value="8">B3</option>
+              <option value="7">C4</option>
+              <option value="6">C5</option>
+              <option value="5">C6</option>
+              <option value="3">D7</option>
+              <option value="2">E8</option>
+              <option value="1">F9</option>
+            </select>
+          </div>
+          <div class="sitting">
+            <label>SITTINGS:</label>
+            <select name="maths" id="oneSitting">
+              <option label="choose1"></option>
+              <option label="1"></option>
+              <option label="2"></option>
+              <option label="3"></option>
+              <option label="4"></option>
+              <option label="5"></option>
+            </select>
+          </div>
+          <!-- </div> -->
+        </div>
+        <!-- </div> -->
+        <p>UTME & PUTME</p>
+        <hr />
+        <div class="grade2">
+          <div class="utme">
+            <label>UTME</label>
+            <input type="number" value="" min="100" max="400" id="candUtme" />
+          </div>
+          <div class="putme">
+            <label>PUTME</label>
+            <input type="number" value="" min="100" max="400" id="candPutme" />
+          </div>
+          <!-- </div> -->
+        </div>
+      </div>
+      <div class="btn">
+        <button type="button" id="check_addimision">CHECK ADMISSION</button>
+      </div>
+
+      <div id="before" class="hide"></div>
+
+      <div id="display_result" class="hide"></div>
+
+      <button type="reset" id="restart" class="hide" onclick="window.location.reload()">RESTART</button>
+    </form>
+
+    <script src="./checker.js"></script>
+  </body>
+</html>

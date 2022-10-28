@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background-color: yellow; */
+    font-family: sans-serif;
+    color: #fff;
+    background: linear-gradient(135deg, #05073a,#dc0606ca);
+}
+
+.con {
+    /* background-color: blue; */
+    max-width: 50%;
+    margin: 50px auto;
+    padding: 30px 100px;
+}
+
+.mynav {
+    /* background-color: green; */
+    text-align: center;
+    padding: 50px 50px;
+    /* background-color: #fff; */
+}
+
+.mynav h1 {
+    font-size: 48px;
+    /* color: #000; */
+}
+
+form {
+    /* background-color: bisque; */
+    background: linear-gradient(135deg, #dc0606ca, #05073a);
+    /* max-width: 80%; */
+}
+
+p {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    /* background-color: aqua; */
+    font-size: 24px;
+}
+
+.personal, .grade1, .grade2 {
+    /* background-color: blueviolet; */
+    max-width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    font-size: 18px;
+    padding: 5px;
+    /* margin-top: 30px; */
+}
+
+input, select {
+    height: 32px;
+    max-width: 100%;
+    font-size: 16px;
+    padding: 4px 8px;
+    /* border: 5px solid rgb(110, 16, 16); */
+    border-radius: 10px;
+}
+
+/* input {
+    outline: none;
+} */
+
+.personal {
+    margin-top: 30px;
+}
+
+.grade2 {
+    /* max-width: 100%; */
+    max-width: 40%;
+    margin-top: 30px;
+
+}
+
+.grade1 {
+    max-width: 90%;
+    flex-wrap: wrap;
+    line-height: 18px;
+    margin-top: 30px;
+    /* padding: 20px; */
+    /* display: flex; */
+}
+
+.maths, .english, .science, .arts, .commercial {
+    margin-bottom: 16px;
+}
+
+select {
+    height: 40px;
+}
+
+.btn {
+    /* background-color: yellow; */
+    text-align: center;
+}
+
+.label {
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: red; */
+    margin: auto;
+    justify-content: space-between;
+    
+}
+
+.sub {
+    display: block;
+}
+
+
+
+button {
+    max-width: 50%;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 18px;
+    padding: 16px 24px;
+    border: 2px solid #eee;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #dc0606ca, #05073a);
+    color: #fff;
+
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 1s;
+}
+
+button:active {
+    transform: scale(1);
+    transition: 0.1s;
+}
+
+
+/* .grade22 {
+    margin-top: 20px;
+} */
+
+ hr{
+    width: 31%;
+    margin-left: 19em;
+}
+
+
+
+#before{
+    position: fixed;
+    inset: 0;
+    background-color: #05073ad3;
+    backdrop-filter: blur(8px);
+    z-index: 10;
+}
+
+#display_result{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 450px;
+    height: 300px;
+    background-color: #030427;
+    color: #fff;
+    font-size: 1.6rem;
+    text-align: center;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+}
+
+#restart{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 1rem 2rem;
+    background-image: none;
+    background-color: #f2f2f2;
+    color: #05073a;
+    font-weight: bold;
+    z-index: 200;
+    transition: all 150ms ease;
+}
+#restart:hover{
+    background-color: orange;
+    color: #fff;
+}
+
+.hide{
+    display: none;
+}
